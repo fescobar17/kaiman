@@ -16,10 +16,7 @@ export default function Features() {
             Los agentes especializados
           </div>
           <h2 className="feat-h2">
-            Crea y escala tu operación,<br />
-            <span style={{ whiteSpace: 'nowrap' }}>
-              todo bajo un mismo <span className="hi">ecosistema.</span>
-            </span>
+            Crea y escala tu operación, todo bajo un mismo <span className="hi">ecosistema.</span>
           </h2>
           <p className="feat-sub2">
             Cada agente KAIman domina su área en profundidad. No son herramientas
