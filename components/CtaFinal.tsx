@@ -21,7 +21,7 @@ export default function CtaFinal() {
     const body = encodeURIComponent(
       `Nombre: ${form.nombre}\nEmpresa: ${form.empresa}\nCargo: ${form.cargo}\nEmail: ${form.email}\nTeléfono: ${form.telefono}`
     )
-    window.location.href = `mailto:hola@kaiman.ai?subject=${subject}&body=${body}`
+    window.location.href = `mailto:growth@krugercorporation.com?subject=${subject}&body=${body}`
   }
 
   return (

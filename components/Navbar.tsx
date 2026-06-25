@@ -21,9 +21,10 @@ export default function Navbar() {
             <Image
               src="https://res.cloudinary.com/dgqyix7a3/image/upload/v1782319716/kaiman_logo_vvvtbt.png"
               alt="KAIman"
-              width={120}
-              height={30}
+              width={240}
+              height={60}
               priority
+              style={{ height: '30px', width: 'auto' }}
             />
           </div>
           <div className="nav-r">

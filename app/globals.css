@@ -49,7 +49,7 @@ nav {
 }
 .nav-i { height: 60px; display: flex; align-items: center; justify-content: space-between; }
 .nav-logo { display: flex; align-items: center; height: 60px; padding: 0 24px; border-right: 1px solid var(--border-subtle); }
-.nav-logo img { height: 30px; display: block; }
+.nav-logo img { height: 30px; width: auto; display: block; }
 .nav-r { display: flex; align-items: center; gap: 8px; }
 .nav-link { font-size: 14px; font-weight: 500; color: var(--text-2); text-decoration: none; padding: 8px 14px; transition: color .15s; }
 .nav-link:hover { color: var(--text); }
@@ -708,7 +708,7 @@ footer { padding: 32px 56px; border-top: 1px solid var(--border-subtle); backgro
    FOOTER — React component classes
 ════════════════════════════════════════ */
 .footer-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-.footer-logo { height: 24px; display: block; opacity: .85; }
+.footer-logo { height: 26px; width: auto; display: block; opacity: .85; }
 .footer-text { font-size: 13px; font-weight: 400; color: var(--text-3); }
 .footer-sep { margin: 0 8px; opacity: 0.4; }
 .footer-link { color: #FF5B00; text-decoration: none; }
