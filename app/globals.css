@@ -701,8 +701,10 @@ footer { padding: 32px 56px; border-top: 1px solid var(--border-subtle); backgro
 .cta-trust { display: flex; align-items: center; gap: 24px; flex-wrap: wrap; padding-top: 4px; }
 .cta-trust-item { display: flex; align-items: center; gap: 7px; font-size: 13px; color: #A8B2B7; }
 .cta-trust-icon { color: #FF5B00; font-weight: 700; font-size: 15px; }
+.cta-typeform { width: 100%; min-height: 400px; }
+.cta-typeform > div { width: 100%; min-height: 400px; }
 .cta-img-wrap { display: flex; align-items: center; justify-content: center; }
-.cta-img { width: min(100%, 500px); height: auto; display: block; filter: drop-shadow(0 0 40px rgba(255,91,0,0.25)); border-radius: 20px; }
+.cta-img { width: min(100%, 500px); height: auto; display: block; border-radius: 20px; }
 
 /* ════════════════════════════════════════
    FOOTER — React component classes

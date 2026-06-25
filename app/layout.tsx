@@ -14,11 +14,17 @@ export const metadata: Metadata = {
   description:
     'Plataforma de IA para empresas en LATAM. Agentes especializados que trabajan juntos, coordinados bajo un solo ecosistema.',
   keywords: ['IA', 'inteligencia artificial', 'LATAM', 'agentes', 'automatización', 'empresas'],
+  icons: {
+    icon: 'https://res.cloudinary.com/dgqyix7a3/image/upload/v1782319716/kaiman_logo_vvvtbt.png',
+    shortcut: 'https://res.cloudinary.com/dgqyix7a3/image/upload/v1782319716/kaiman_logo_vvvtbt.png',
+    apple: 'https://res.cloudinary.com/dgqyix7a3/image/upload/v1782319716/kaiman_logo_vvvtbt.png',
+  },
   openGraph: {
     title: 'KAIman Platform — Convierte la IA en resultados reales',
     description:
       'Agentes especializados que trabajan juntos, coordinados bajo un solo ecosistema, con tu equipo siempre en control.',
     siteName: 'KAIman',
+    images: ['https://res.cloudinary.com/dgqyix7a3/image/upload/v1782319716/kaiman_logo_vvvtbt.png'],
   },
 }
 
